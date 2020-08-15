@@ -5,7 +5,7 @@
   Time: 16:39
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=8859_1" language="java" %>
 <html>
   <head>
     <title>My JSP 'index.jsp' starting page</title>
@@ -17,5 +17,13 @@
   </head>
   <body>
     This is my JSP page. <br>
+    <%@include file="FormLabel/form.html"%>
+    <%@include file="BaseLabel/table.html"%>
+    <%@include file="DivLabel/div.html"%>
+    <%@include file="HrefLabel/href.html"%>
+    <%@include file="PubLabel/publish.html"%>
+    <%@include file="LiLabel/li.html"%>
+    <%@include file="ImageLabel/image.html"%>
+    <%@include file="FontLabel/font.html"%>
   </body>
 </html>
