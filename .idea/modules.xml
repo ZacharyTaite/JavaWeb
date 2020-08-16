@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn_day01/learn_day01.iml" filepath="$PROJECT_DIR$/learn_day01/learn_day01.iml" />
       <module fileurl="file://$PROJECT_DIR$/learncss_day02/learncss_day02.iml" filepath="$PROJECT_DIR$/learncss_day02/learncss_day02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnjs_day03/learnjs_day03.iml" filepath="$PROJECT_DIR$/learnjs_day03/learnjs_day03.iml" />
     </modules>
   </component>
 </project>

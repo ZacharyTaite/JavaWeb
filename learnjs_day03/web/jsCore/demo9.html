@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <label for="txt">name</label>
+    <input id="txt" type="text"/><span id="action"></span>
+</body>
+<script type="text/javascript">
+    var txt = document.getElementById("txt");
+    txt.onfocus = function () {
+        //友好提示
+        var span = document.getElementById("action");
+        span.innerHTML = "用户名格式最小8位";
+        span.style.color = "green";
+    };
+    txt.onblur = function () {
+        //错误提示
+        var span = document.getElementById("action");
+        span.innerHTML = "对不起 格式不正确";
+        span.style.color = "red";
+    }
+</script>
+</html>

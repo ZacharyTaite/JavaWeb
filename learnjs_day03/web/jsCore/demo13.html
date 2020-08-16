@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div onclick="fn1()" style="width:100px;height:100px;background-color: green;padding: 50px;">
+        <div onclick="fn2(event)" style="width:100px;height:100px;background-color: red;">xxx</div>
+    </div>
+</body>
+<script type="text/javascript">
+    function fn1() {
+        alert("fn1")
+    }
+    function fn2(e) {
+        alert("fn2");
+        //阻止事件的传播
+        if(e&&e.stopPropagation){
+            alert("w3c");
+            e.stopPropagation();
+            //IE标签
+        }else{
+            alert("ie");
+            window.event.cancelBubble = true;
+        }
+    }
+</script>
+</html>

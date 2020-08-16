@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript">
+    var time = 5;
+    var timer;
+    timer = setInterval(
+        function(){
+            var second = document.getElementById("second");
+            if(time>=1){
+                second.innerHTML = time;
+                time--;
+            }else{
+                clearInterval(timer);
+                location.href="../jsCore/demo10.html";
+            }
+        },
+        1000
+    );
+</script>
+<body>
+恭喜您注册成功，<span id="second" style="color: red;">5</span>秒后跳转到首页，如果不跳转请<a href="../jsCore/demo10.html">点击这里</a>
+</body>
+</html>
