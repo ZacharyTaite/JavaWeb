@@ -38,7 +38,17 @@
     <%@include file="jsDom/dom/04-hasChildNodes.html"%>
     <%@include file="jsDom/dom/05-NodeNameValueType.html"%>
     <%@include file="jsDom/dom/06-NodeEx01.html"%>
-    <%@include file="jsDom/dom/07-NodeEx02.html"%>--%>
+    <%@include file="jsDom/dom/07-NodeEx02.html"%>
     <%@include file="jsDom/dom/08-NodeEx03.html"%>
+    <%@include file="jsDom/dom/09-replaceNode.html"%>
+    <%@include file="jsDom/dom/10-getAttribute.html"%>
+    <%@include file="jsDom/dom/11-setAttribute.html"%>
+    <%@include file="jsDom/dom/12-createElement01.html"%>
+    <%@include file="jsDom/dom/13-createElement02.html"%>
+    <%@include file="jsDom/dom/14-insertBefore.html"%>
+    <%@include file="jsDom/dom/15-insertAfter.html"%>
+    <%@include file="jsDom/dom/16-removeChild.html"%>
+    <%@include file="jsDom/dom/17-innerHTML.html"%>--%>
+    <%@include file="jsDom/ex01/user.html"%>
   </body>
 </html>
