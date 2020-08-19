@@ -1,4 +1,4 @@
-package com.teamsun.jdbcDemo;
+package com.teamsun.demo01.jdbcDemo;
 
 import com.mysql.jdbc.Driver;
 

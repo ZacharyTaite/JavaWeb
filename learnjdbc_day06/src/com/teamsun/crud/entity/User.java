@@ -1,6 +1,4 @@
-package com.teamsun.entity;
-
-import java.util.Date;
+package com.teamsun.crud.entity;
 
 public class User {
     private int id;

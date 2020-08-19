@@ -1,6 +1,4 @@
-package com.teamsun.jdbcDemo;
-
-import org.junit.Test;
+package com.teamsun.demo01.jdbcDemo;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
