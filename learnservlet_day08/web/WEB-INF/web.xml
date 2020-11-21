@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <context-param>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+
+    <servlet>
+    <servlet-name>ServletContextDemo01</servlet-name>
+    <servlet-class>com.teamsun.servlet.ServletContextDemo01</servlet-class>
+</servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo01</servlet-name>
+        <url-pattern>/servlet/demo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo02</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletContextDemo02</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo02</servlet-name>
+        <url-pattern>/servlet/demo2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo03</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletContextDemo03</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo03</servlet-name>
+        <url-pattern>/servlet/demo3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo04</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletContextDemo04</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo04</servlet-name>
+        <url-pattern>/servlet/demo4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo05</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletContextDemo05</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo05</servlet-name>
+        <url-pattern>/servlet/demo5</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo06</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletContextDemo06</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo06</servlet-name>
+        <url-pattern>/servlet/demo6</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>servletDemo1</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletDemo01</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>servletDemo1</servlet-name>
+        <url-pattern>/demo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servletDemo2</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletDemo2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>servletDemo2</servlet-name>
+        <url-pattern>/demo2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>servletDemo03</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletDemo03</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>servletDemo03</servlet-name>
+        <url-pattern>/demo03</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servletDemo04</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletDemo04</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>servletDemo04</servlet-name>
+        <url-pattern>/demo04</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo05</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletDemo05</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletDemo05</servlet-name>
+        <url-pattern>/servlet/demo05</url-pattern>
+    </servlet-mapping>
+
+    <!--<servlet>
+        <servlet-name>ServletConfigDemo01</servlet-name>
+        <servlet-class>com.teamsun.servlet.ServletConfigDemo01</servlet-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>GBK</param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ServletConfigDemo01</servlet-name>
+        <url-pattern>/servlet/scd1</url-pattern>
+    </servlet-mapping>-->
+</web-app>
